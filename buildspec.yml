@@ -1,0 +1,13 @@
+version: 0.2
+phases: 
+  install: 
+    runtime-versions:
+      nodejs:10
+    commands: 
+      - echo installing nodemodules 
+      - npm install
+      - npm install -g @angular/cli 
+  build:
+    commands:
+      - echo build start 
+      - ng build
