@@ -11,8 +11,14 @@ phases:
     commands:
       - echo build start 
       - ng build
-artifacts: 
+  post_build:
+    commands: 
+      - echo S3 bucket 
+      - aws s3 cp s3://codepipeline-us-east-2-619763825478/test1234 --recursive 
+      - echo Build completes on `date`
+  
+  artifacts:
     files: 
-        - '**/*'
-    base-directory: 'dist'
-    discard-path: yes 
+      - '/'
+    discard-paths: yes
+    base-directory: 'dist*'
