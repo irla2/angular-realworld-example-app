@@ -14,7 +14,7 @@ phases:
   post_build:
     commands: 
       - echo S3 bucket 
-      - aws s3 cp s3://codepipeline-us-east-2-619763825478  --recursive 
+      - aws s3 cp dist s3://codepipeline-us-east-2-619763825478  --recursive 
       - echo Build completes on `date`
   
  
