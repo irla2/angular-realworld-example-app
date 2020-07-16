@@ -11,3 +11,8 @@ phases:
     commands:
       - echo build start 
       - ng build
+artifacts: 
+    files: 
+        - '**/*'
+    base-directory: 'dist'
+    discard-path: yes 
