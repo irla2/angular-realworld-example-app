@@ -17,8 +17,4 @@ phases:
       - aws s3 cp s3://codepipeline-us-east-2-619763825478/test1234 --recursive 
       - echo Build completes on `date`
   
-  artifacts:
-    files: 
-      - '/'
-    discard-paths: yes
-    base-directory: 'dist*'
+ 
