@@ -18,7 +18,8 @@ phases:
       
 artifacts:
   files: 
-      - '**/*'      
+      - '**/*'  
+      - AppSpec.yml    
   base-directory: dist
 discard-paths: no 
   
