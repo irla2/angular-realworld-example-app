@@ -15,11 +15,11 @@ phases:
   post_build:
     commands:
       - echo Build completed on `data`
+      #- AppSpec.yml
       
 artifacts:
   files: 
-      - '**/*'  
-      - AppSpec.yml    
+      - '**/*'      
   base-directory: dist
 discard-paths: no 
   
