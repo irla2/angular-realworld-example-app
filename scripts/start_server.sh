@@ -1,2 +1,3 @@
 #!/bin/bash 
-service httpd reload 
+##service apache reload
+sudo apt-get update 
