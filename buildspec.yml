@@ -17,11 +17,11 @@ phases:
       - echo Build completed on `data`
       #- AppSpec.yml
       
-artifacts:
-  files: 
-      - '**/*'     
+#artifacts:
+#  files: 
+#      - '**/*'     
       # - appspec.yml 
-  base-directory: dist
-discard-paths: no 
+#  base-directory: dist
+#discard-paths: no 
   
       
