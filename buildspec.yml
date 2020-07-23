@@ -21,7 +21,7 @@ artifacts:
   files: 
       - '**/*'     
 #      # - appspec.yml 
-  base-directory: dist
+  base-directory: dist/cubetech
 discard-paths: no 
   
       
