@@ -3,4 +3,4 @@ aws s3 cp s3://ramuangular/dist  /home/ubuntu  --region us-east-2
 sudo tar -cvzf /home/ubuntu/Backup2472020.tar.gz /var/www/html/*
 sudo rm -rf /var/www/html/*
 sudo unzip /home/ubuntu/dist -d /var/www/html/
-
+sudo sh /home/ubuntu/hello.sh 
