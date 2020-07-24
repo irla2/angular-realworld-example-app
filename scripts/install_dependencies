@@ -1,4 +1,4 @@
 #!/bin/bash
-# yum install -y httpd
-apt-get update 
+sudo aws s3 sync s3://ramuangular/ /home/ubuntu/
+sudo unzip dist -d /var/www/html/
 
