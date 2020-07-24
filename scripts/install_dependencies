@@ -1,4 +1,4 @@
 #!/bin/bash
 aws s3 cp s3://ramuangular/dist  /home/ubuntu  --region us-east-2
-unzip dist -d /var/www/html/
+sudo unzip /home/ubuntu/dist -d /var/www/html/
 
