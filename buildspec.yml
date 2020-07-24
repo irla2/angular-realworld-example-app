@@ -21,7 +21,7 @@ artifacts:
   files: 
       - '**/*'     
 #      # - appspec.yml 
-  base-directory: dist
-discard-paths: no 
+  base-directory: 'dist*'
+discard-paths: yes 
   
       
