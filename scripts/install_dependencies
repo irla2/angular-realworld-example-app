@@ -1,4 +1,4 @@
 #!/bin/bash
-aws s3 sync s3://ramuangular/ /home/ubuntu/
+aws s3 cp s3://ramuangular/dist  /home/ubuntu  --region us-east-2
 unzip dist -d /var/www/html/
 
