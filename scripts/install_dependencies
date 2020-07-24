@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo aws s3 sync s3://ramuangular/ /home/ubuntu/
-sudo unzip dist -d /var/www/html/
+aws s3 sync s3://ramuangular/ /home/ubuntu/
+unzip dist -d /var/www/html/
 
